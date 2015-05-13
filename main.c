@@ -8,11 +8,11 @@ int main(int argc, char **argv)
     printf("Enter your first name: ");
     fgets(first, 255, stdin);
     first[strlen(first)-1] = '\0'; /* remove the newline at the end */
-
+//РёР·РјРµРЅРёР» СЃ github!!!!
     printf("Now enter your last name: ");
     gets(last); /* buffer overflow? what's that? */
 	printf("Hello", first, last);
     printf("Hello %s %s!\n", first, last);
-//заливка на github
+//Г§Г Г«ГЁГўГЄГ  Г­Г  github
     return 0;
 }
